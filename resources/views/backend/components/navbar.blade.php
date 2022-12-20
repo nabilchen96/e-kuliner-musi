@@ -24,7 +24,7 @@
         <li class="nav-item">
             <a class="nav-link" href="{{ url('back/product') }}">
                 <i class="bi bi-box-seam menu-icon"></i>
-                <span class="menu-title">Produk</span>
+                <span class="menu-title">Makanan</span>
             </a>
         </li>
         <li class="nav-item">
@@ -36,7 +36,7 @@
         <li class="nav-item">
             <a class="nav-link" href="{{ url('back/diskusi-produk') }}">
                 <i class="bi bi-chat-right-text menu-icon"></i>
-                <span class="menu-title">Diskusi Produk</span>
+                <span class="menu-title">Diskusi Makanan</span>
             </a>
         </li>
         <li class="nav-item">

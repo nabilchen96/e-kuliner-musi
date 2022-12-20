@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sumsel Crafters</title>
+    <title>e-Kuliner Musi</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{ asset('skydash/vendors/feather/feather.css') }}">
     <link rel="stylesheet" href="{{ asset('skydash/vendors/ti-icons/css/themify-icons.css') }}">
@@ -71,7 +71,7 @@
                 <a class="navbar-brand brand-logo mr-5" style="color: white; font-size: 16px; margin-left: 20px;"
                     href="{{ url('/') }}">
                     {{-- <img src="{{ asset('logosc.png') }}" class="mr-2" alt="logo" /> --}}
-                    SUMSEL CRAFTERS
+                    e-Kuliner Musi
                 </a>
                 <a class="navbar-brand brand-logo-mini" style="color: white;" href="{{ url('/') }}">
                     {{-- <img src="{{ asset('logosc.png') }}" alt="logo" /> --}}
@@ -125,8 +125,8 @@
 
                 <div
                     style="
-                    background-image: url('https://cdn.pixabay.com/photo/2019/08/15/11/16/nature-4407819_960_720.png'); 
-                    height: 200px; 
+                    background-image: url('https://cdn.pixabay.com/photo/2018/05/25/23/15/wafer-3430286__340.jpg'); 
+                    height: 230px; 
                     background-position: center;
                     background-size: cover;
                     width: 100%;">

@@ -19,7 +19,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-12 col-xl-8 mb-xl-0">
-                    <h3 class="font-weight-bold text-white">Data Diskusi Produk</h3>
+                    <h3 class="font-weight-bold text-white">Diskusi Makanan</h3>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                                     <th width="5%">No</th>
                                     <th>Nama</th>
                                     <th width="300px">Pesan</th>
-                                    <th>Produk</th>
+                                    <th>Makanan</th>
                                     <th>Tanggal</th>
                                     <th width="5%"></th>
                                 </tr>

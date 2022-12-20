@@ -75,9 +75,9 @@
             <div class="container py-2 px-3">
                 <a class="navbar-brand py-0" href="{{ url('/') }}">
                     <div class="float-left tentang">
-                        <img src="{{ url('logosc.png') }}" height="45" alt="">
+                        {{-- <img src="{{ url('logosc.png') }}" height="45" alt=""> --}}
                         <div style="margin-left: 10px; margin-top: auto; margin-bottom: auto;">
-                            <h6 class="">SUMSEL CRAFTERS</h6>
+                            <h4 class="">e-Kuliner Musi</h4>
                         </div>
                     </div>
                 </a>
@@ -93,14 +93,14 @@
                                 style="margin-right: 20px">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('produk') }}" style="margin-right: 20px">Produk</a>
+                            <a class="nav-link" href="{{ url('produk') }}" style="margin-right: 20px">Makanan</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('berita') }}" style="margin-right: 20px">Berita</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="tentang.html" style="margin-right: 20px">Tentang</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modalcari">
                             <a href="javascript:void(0)" class="btn btn-primary mb-1"
                                 style="margin-right: 5px; border-radius: 50px">

@@ -129,7 +129,7 @@
                                 @if ($detail->pilihan_ukm == '1')
                                     <span class="badge bg-danger mb-2">
                                         <i class="bi bi-fire"></i>
-                                        Pilihan UKM
+                                        Pilihan
                                     </span>
                                 @endif
                                 <p><b> Rp. {{ number_format($detail->harga) }}</b></p>
@@ -175,7 +175,7 @@
     <div class="container mt-5">
         <div class="row">
             {{-- daftar produk --}}
-            <h4 class="px-4">Daftar Produk</h4>
+            <h4 class="px-4">Daftar Makanan</h4>
             @include('frontend.components.list-produk', ['data' => $produk])
 
         </div>

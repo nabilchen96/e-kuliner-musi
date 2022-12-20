@@ -7,7 +7,7 @@
             background-repeat: no-repeat;
             background-image: linear-gradient(transparent, black),
             url('{{ asset('office.jpg') }}') !important;
-            min-height: 200px;
+            min-height: 230px;
         ">
         <div class="container px-3 py-4">
             <div class="tentang text-white">

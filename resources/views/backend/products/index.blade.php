@@ -19,7 +19,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-12 col-xl-8 mb-xl-0">
-                    <h3 class="font-weight-bold text-white">Data Produk</h3>
+                    <h3 class="font-weight-bold text-white">Data Makanan</h3>
                 </div>
             </div>
         </div>
@@ -74,17 +74,17 @@
                         <div class="form-group">
                             <label for="exampleInputPassword1">Jenis Produk</label>
                             <select name="jenis_produk" class="form-control" id="jenis_produk">
-                                <option>Fashion</option>
-                                <option>Elektronik</option>
+                                {{-- <option>Fashion</option>
+                                <option>Elektronik</option> --}}
                                 <option>Makanan</option>
                                 <option>Minuman</option>
-                                <option>Hobi</option>
+                                {{-- <option>Hobi</option>
                                 <option>Rumah Tangga</option>
                                 <option>Otomotif</option>
                                 <option>Olahraga</option>
                                 <option>Alat Tulis</option>
                                 <option>Kosmetik</option>
-                                <option>Obat</option>
+                                <option>Obat</option> --}}
                             </select>
                         </div>
                         <div class="form-group">
