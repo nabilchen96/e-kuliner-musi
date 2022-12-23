@@ -21,11 +21,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="{{ $slider[0]->url }}" target="_blank">
-                        <div class=""
+                        <div class="d-none d-lg-block d-xl-block"
                             style="
                                     background-image: url('{{ asset('gambar_slider') }}/{{ $slider[0]->gambar }}');
                                     /* border-radius: 15px; */
                                     aspect-ratio: 1/0.3;
+                                    background-size: cover;
+                                    background-position: center;"
+                            src="" class="d-block w-100" alt="...">
+    
+                        </div>
+                        <div class="d-sm-block d-lg-none d-xl-none"
+                            style="
+                                    background-image: url('{{ asset('gambar_slider') }}/{{ $slider[0]->gambar }}');
+                                    /* border-radius: 15px; */
+                                    aspect-ratio: 1/0.5;
                                     background-size: cover;
                                     background-position: center;"
                             src="" class="d-block w-100" alt="...">
@@ -36,11 +46,21 @@
                 @if (@$slider[1]->gambar)
                     <div class="carousel-item">
                         <a href="{{ $slider[1]->url }}" target="_blank">                        
-                            <div class=""
+                            <div class="d-none d-lg-block d-xl-block"
                                 style="
                             background-image: url('{{ asset('gambar_slider') }}/{{ $slider[1]->gambar }}');
                             /* border-radius: 15px; */
                             aspect-ratio: 1/0.3;
+                            background-size: cover;
+                            background-position: center;"
+                                src="" class="d-block w-100" alt="...">
+    
+                            </div>
+                            <div class="d-sm-block d-lg-none d-xl-none"
+                                style="
+                            background-image: url('{{ asset('gambar_slider') }}/{{ $slider[1]->gambar }}');
+                            /* border-radius: 15px; */
+                            aspect-ratio: 1/0.5;
                             background-size: cover;
                             background-position: center;"
                                 src="" class="d-block w-100" alt="...">
@@ -52,11 +72,21 @@
                 @if (@$slider[2]->gambar)
                     <div class="carousel-item">
                         <a href="{{ $slider[2]->url }}" target="_blank">                        
-                            <div class=""
+                            <div class="d-none d-lg-block d-xl-block"
                                 style="
                             background-image: url('{{ asset('gambar_slider') }}/{{ $slider[2]->gambar }}');
                             /* border-radius: 15px; */
                             aspect-ratio: 1/0.3;
+                            background-size: cover;
+                            background-position: center;"
+                                src="" class="d-block w-100" alt="...">
+    
+                            </div>
+                            <div class="d-sm-block d-lg-none d-xl-none"
+                                style="
+                            background-image: url('{{ asset('gambar_slider') }}/{{ $slider[2]->gambar }}');
+                            /* border-radius: 15px; */
+                            aspect-ratio: 1/0.5;
                             background-size: cover;
                             background-position: center;"
                                 src="" class="d-block w-100" alt="...">

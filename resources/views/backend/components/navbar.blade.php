@@ -51,11 +51,11 @@
                 <span class="menu-title">User Profil</span>
             </a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link" href="https://drive.google.com/file/d/1PYG9t6BHHg1Xck_YQpt8j0jhNBnhhsB-/view?usp=sharing">
                 <i class="icon-paper menu-icon"></i>
                 <span class="menu-title">Panduan</span>
             </a>
-        </li>
+        </li> --}}
     </ul>
 </nav>
